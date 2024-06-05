@@ -8,7 +8,7 @@
               <li v-for="(item, index) in skills" :key="index">
                 <p>{{ item.title }}</p>
                 <div :class="`progressbar line ${item.color}`">
-                  <CommonLineProgressbar :max="item.value" />
+                  <LineProgressbar :max="item.value" />
                   <!-- Component for line progressbar with animation from omponents>common>LineProgressbar -->
                 </div>
               </li>
@@ -22,10 +22,12 @@
               your business needs and projects.
             </h3>
             <p>
-              Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at
-              eros. Praesent commodo cursus magna, vel scelerisque nisl
-              consectetur duis mollis commodo.
+              Our comprehensive suite of web development and software engineering services is tailored to meet the unique needs of your business.
+              Whether you're a startup looking to establish your online presence or an established enterprise seeking to optimize your
+              digital operations, we have the expertise and experience to deliver solutions that drive growth and success.
+              We partner with you to understand your goals, challenges, and target audience, ensuring that every project we undertake aligns with
+              your overall business strategy. From concept to deployment and beyond, we provide end-to-end support, empowering you
+              to leverage technology as a strategic asset.
             </p>
           </div>
           <!--/column -->
@@ -61,6 +63,7 @@
 <script setup>
 import { services11 } from "@/data/features";
 import { skills } from "@/data/skils";
+import LineProgressbar from "@/components/ezzy/components/LineProgressbar.vue";
 </script>
 
 <style lang="scss" scoped></style>

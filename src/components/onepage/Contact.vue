@@ -1,14 +1,14 @@
 <template>
   <section id="contact" class="scrollSpysection">
-    <div class="wrapper bg-light">
-      <div class="container py-14 py-md-17">
+    <div class="wrapper bg-gray">
+      <div class="container py-5 py-md-17">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-lg-7">
             <figure>
               <img
                 class="w-auto"
-                src="/assets/img/illustrations/i5.png"
-                srcset="/assets/img/illustrations/i5@2x.png 2x"
+                src="/web/contact.jpg"
+                srcset="/web/contact.jpg 2x"
                 alt="photo"
               />
             </figure>

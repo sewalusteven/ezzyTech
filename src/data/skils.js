@@ -1,18 +1,6 @@
 export const skills = [
-    {id: 1,  title: 'Marketing', color: 'blue', value: 100 },
-    {id: 2,  title: 'Strategy', color: 'yellow', value: 80 },
-    {id:3 ,  title: 'Development', color: 'orange', value: 85 },
-    {id:4 ,  title: 'Data Analysis', color: 'green', value: 90 },
+    {id: 1,  title: 'Custom Web Development', color: 'blue', value: 100 },
+    {id: 2,  title: 'Software Engineering', color: 'yellow', value: 95 },
+    {id:3 ,  title: 'E-Commerce Development', color: 'orange', value: 98 },
+    {id:4 ,  title: 'Cloud Solutions', color: 'green', value: 94 },
   ]
-export const skills2 = [
-    {id:1, title: 'Marketing',  value: 100 },
-        {id: 2, title: 'Strategy', value: 80 },
-        {id:3 , title: 'Development', value: 85 },
-  ]
-
-  export const skills3 = [
-    { id: 1, name: 'Photoshop', value: 100 },
-    { id: 2, name: 'Final Cut', value: 80 },
-    { id: 3, name: 'Motion Video', value: 85 },
-    { id: 4, name: 'Manipulation', value: 75 },
-  ];

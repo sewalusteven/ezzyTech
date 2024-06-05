@@ -4,10 +4,9 @@
       <div class="container pt-10 pt-md-14 pb-14 pb-md-17 text-center">
         <div class="row text-center">
           <div class="col-lg-9 col-xxl-7 mx-auto">
-            <h2 class="display-1 mb-4">Creative. Smart. Awesome.</h2>
+            <h2 class="display-1 mb-4">Innovate. Empower. Deliver.</h2>
             <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">
-              We are an award winning web & mobile design agency that strongly
-              believes in the power of creative ideas.
+              We craft digital solutions that elevate your business and empower your vision.
             </p>
           </div>
           <!-- /column -->
@@ -18,8 +17,8 @@
             <figure>
               <img
                 class="w-auto"
-                src="/assets/img/illustrations/i8.png"
-                srcset="/assets/img/illustrations/i8@2x.png 2x"
+                src="/web/home.png"
+                srcset="/web/home.png 2x"
                 alt="photo"
               />
             </figure>
